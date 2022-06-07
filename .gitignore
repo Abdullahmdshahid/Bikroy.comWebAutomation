@@ -1,0 +1,6 @@
+.pytest_cache
+tests/__pycache__/
+.idea
+Lib/
+Scripts/
+pyvenv.cfg
