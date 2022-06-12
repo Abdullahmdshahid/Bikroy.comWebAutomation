@@ -12,6 +12,14 @@ class LoginPageLocators(object):
     CONTINUE_WITH_EMAIL_BUTTON = (By.CSS_SELECTOR, 'button[class*="email"]')
     EMAIL_TEXTBOX = (By.ID, "input_email")
     PASSWORD_TEXTBOX = (By.ID, "input_password")
-    SUBMIT_BUTTON = (By.XPATH, "//button[contains(text(), 'Login')]")
+    LOGIN_BUTTON = (By.XPATH, "//button[contains(text(), 'Login')]")
     LOGIN_FAILED_TEXT = (By.CSS_SELECTOR, 'div[class*="error"] span')
+    SIGN_UP_BUTTON = (By.CSS_SELECTOR, 'button[class*="email-signup"]')
+
+
+class CreateAccountPageLocators(object):
+    NAME_TEXTBOX = (By.ID, "input_name")
+    EMAIL_TEXTBOX = (By.ID, "input_email")
+    PASSWORD_TEXTBOX = (By.ID, "input_password")
+    CONFIRM_PASSWORD_TEXTBOX = (By.ID, "input_password-confirm")
     SIGN_UP_BUTTON = (By.CSS_SELECTOR, 'button[class*="email-signup"]')
