@@ -6,8 +6,7 @@ from selenium.common.exceptions import TimeoutException
 
 # this Base class is serving basic attributes for every single page inherited from Page class
 class BasePage(object):
-    def __init__(self, driver, base_url='https://bikroy.com/en'):
-        self.base_url = base_url
+    def __init__(self, driver):
         self.driver = driver
         self.timeout = 30
 

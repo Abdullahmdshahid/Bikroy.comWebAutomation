@@ -8,6 +8,10 @@ class LoginPage(BasePage):
         super().__init__(driver)
         self.locator = LoginPageLocators
 
+    def click_sign_up_button(self):
+        button = self.find_element(*self.locator.SIGN_UP_BUTTON)
+        button.click()
+
     def click_with_email_button(self):
         super().wait_element(*self.locator.CONTINUE_WITH_EMAIL_BUTTON)
         button = self.driver.find_element(*self.locator.CONTINUE_WITH_EMAIL_BUTTON)
