@@ -25,3 +25,7 @@ class HomePage(BasePage):
     def click_post_your_ad_button(self):
         button = self.find_element(*self.locator.POST_YOUR_AD_BUTTON)
         button.click()
+
+    def get_my_account_button_text(self):
+        text = self.find_element(*self.locator.MY_ACCOUNT).text
+        return text
