@@ -30,3 +30,16 @@ class DashboardPageLocators(object):
     FAVORITES_BUTTON = (By.CSS_SELECTOR, 'a[href*="favorite-ads"]')
     SETTINGS_BUTTON = (By.CSS_SELECTOR, 'a[href*="setting"]')
     MY_PROFILE_BUTTON = (By.LINK_TEXT, "My Profile")
+
+
+class SettingPageLocators(object):
+    NAME_TEXT_BOX = (By.ID, "profile-name")
+    DROPDWON_ALL_CITIES_BOX = (By.XPATH, '//optgroup[@label="Cities"]/option')
+    DROPDOWN_ALL_SUB_LOCATIONS_BOX = (By.XPATH, '//select[@id="location2"]/option')
+    UPDATE_DETAILS_BUTTON = (By.XPATH, '//span[contains(text(),"Update details")]/parent::button')
+    CURRENT_PASSWORD_TEXT_BOX = (By.ID, "old")
+    NEW_PASSWORD_TEXT_BOX = (By.ID, "password")
+    CONFIRM_NEW_PASSWORD_TEXT_BOX = (By.ID, "confirm")
+    CHANGE_PASSWORD_BUTTON = (By.XPATH, "//span[contains(text(),'Change password')]/parent::button")
+    DELETE_ACCOUNT_BUTTON = (By.LINK_TEXT, "Delete account")
+    LOG_OUT_BUTTON = (By.LINK_TEXT, "Log out")
