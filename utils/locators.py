@@ -23,3 +23,10 @@ class CreateAccountPageLocators(object):
     PASSWORD_TEXTBOX = (By.ID, "input_password")
     CONFIRM_PASSWORD_TEXTBOX = (By.ID, "input_password-confirm")
     SIGN_UP_BUTTON = (By.CSS_SELECTOR, 'button[class*="email-signup"]')
+
+
+class DashboardPageLocators(object):
+    MY_MEMBERSHIP_BUTTON = (By.CSS_SELECTOR, 'li[class*="membership"] a')
+    FAVORITES_BUTTON = (By.CSS_SELECTOR, 'a[href*="favorite-ads"]')
+    SETTINGS_BUTTON = (By.CSS_SELECTOR, 'a[href*="setting"]')
+    MY_PROFILE_BUTTON = (By.LINK_TEXT, "My Profile")
