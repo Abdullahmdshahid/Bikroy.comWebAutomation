@@ -43,3 +43,5 @@ class SettingPageLocators(object):
     CHANGE_PASSWORD_BUTTON = (By.XPATH, "//span[contains(text(),'Change password')]/parent::button")
     DELETE_ACCOUNT_BUTTON = (By.LINK_TEXT, "Delete account")
     LOG_OUT_BUTTON = (By.LINK_TEXT, "Log out")
+    CHANGED_DETAILS_SUCCESSFULLY_TEXT = (By.CLASS_NAME, "ui-alert-content")
+    CHANGED_PASSWORD_SUCCESSFULLY_TEXT = (By.CLASS_NAME, "ui-alert-content")
