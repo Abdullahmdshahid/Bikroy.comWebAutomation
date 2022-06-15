@@ -49,11 +49,12 @@ class SettingPageLocators(object):
 
 class ProfilePageLocators(object):
     CREATE_PROFILE_BUTTON = (By.LINK_TEXT, "Create Profile")
+    UPLOAD_IMAGE_BUTTON = (By.ID, "image")
     NAME_TEXT_BOX = (By.ID, "fields-name-value")
     PHONE_TEXT_BOX = (By.ID, "fields-phone_number-value")
     GENDER_DROPDOWN = (By.XPATH, '//select[@id="fields-gender-value"]/option')
     DATE_OF_BIRTH = (By.ID, "fields-birth_date-value")
-    LOCATION_DROPDOWN_BOX = (By.ID, '//select[@id="fields-living_in-location1"]/option')
+    LOCATION_DROPDOWN_BOX = (By.XPATH, '//optgroup[@label="Cities"]/option')
     SUBLOCATION_DROPDOWN_BOX = (By.XPATH, '//select[@id="fields-living_in"]/option')
     EDUCATION_DROPDOWN_BOX = (By.XPATH, '//select[@id="fields-education_level-value"]/option')
     CURRENT_JOB_DROPDOWN_BOX = (By.XPATH, '//select[@id="fields-current_role-value"]/option')
