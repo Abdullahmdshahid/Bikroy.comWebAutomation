@@ -10,6 +10,7 @@ class SettingPage(BasePage):
 
     def add_setting_profile_details(self, name, location, sublocation):
         name_text_box = self.find_element(*self.locator.NAME_TEXT_BOX)
+        name_text_box.clear()
         name_text_box.send_keys(name)
 
         # collecting all city names
