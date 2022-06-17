@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/abdullah-shahid-9b9048185/]
 
 
 
@@ -75,7 +75,7 @@ Before getting start you must need install python in your local system.
 
 * Download Python
   ```sh
-  install Python in your local system
+  * install Python in your local system
   ```
 
 ### Installation
@@ -103,7 +103,7 @@ Running this project you should use this commends:
        pytest tests
     ```
 2. For run one test case, use this commend:
-   * After tests/write the test case name, lick this:
+   * After "tests/" write the test case name, like this:
     ```sh
        pytest tests/test_01_browse_bikroyWebsite.py
     ```
