@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/abdullah-shahid-9b9048185/]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -125,6 +125,10 @@ Project Link: [https://github.com/Abdullahmdshahid/Bikroy.comWebAutomation.git](
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/https://www.linkedin.com/in/abdullah-shahid-9b9048185/
 
 
 
