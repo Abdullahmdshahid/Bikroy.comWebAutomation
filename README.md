@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
+  <img src="BikroyWebAutomation/sample_data/logo.png" alt="logo" width="100" height="100">
   <h3 align="center">Bikroy.com Web Automation</h3>
 
   <p align="center">
@@ -107,7 +107,11 @@ Running this project you should use this commends:
     ```sh
        pytest tests/test_01_browse_bikroyWebsite.py
     ```
-3. If you want to use your own data, and profile pic:
+3. For generating html and log report, use this commend:
+    ```sh
+       pytest tests --html=report.html --capture=tee-sys
+    ```
+4. If you want to use your own data, and profile pic:
    ```
        * You should go to the "sample_data" folder and put your all data in "all_information_data.py"
        * For profile pic you should name your picture name as "profile_pic_demo"
