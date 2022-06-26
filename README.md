@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="BikroyWebAutomation/sample_data/logo.png" alt="logo" width="100" height="100">
+  <img src="sample_data/logo.png" alt="logo" width="100" height="100">
   <h3 align="center">Bikroy.com Web Automation</h3>
 
   <p align="center">
