@@ -1,6 +1,7 @@
 class LoginData(object):
     EMAIL = "demo@gmail.com"
     PASSWORD = "123456"
+    NEW_PASSWORD = "654321"
 
 
 class SignUpData(object):
