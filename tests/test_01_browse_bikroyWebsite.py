@@ -1,9 +1,8 @@
-import pytest
+from tests.base_test import BaseTestClass
 
 
-@pytest.mark.usefixtures("setup")
-class Test:
+class Test(BaseTestClass):
 
-    # checking is it correct url or notgit
+    # checking is it correct url or not
     def test_01(self):
-        assert "https://bikroy.com/bn" == self.driver.current_url
+        assert "https://bikroy.com/" == self.driver.current_url
