@@ -13,10 +13,11 @@ class Test_03(BaseTestClass):
         home_page = HomePage(driver=self.driver)
         home_page.click_login_button()
 
+        time.sleep(2)
         login_page = LoginPage(driver=self.driver)
         login_page.click_with_email_button()
 
-        login_page.login_with_email_and_password(LoginData.EMAIL, LoginData.PASSWORD)
+        login_page.login_with_email_and_password(LoginData.EMAIL, LoginData.PASSWORD, LoginData.NEW_PASSWORD)
         time.sleep(3)
         text = home_page.get_my_account_button_text()
         assert "My account" in text, "Login failed"
